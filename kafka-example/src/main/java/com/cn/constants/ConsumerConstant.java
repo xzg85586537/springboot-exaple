@@ -1,0 +1,21 @@
+package com.cn.constants;
+
+import java.util.PrimitiveIterator;
+
+/**
+ * @author by xiao
+ * @Classname ConsumerConstant
+ * @Description
+ * @Date 2020/1/10 10:51
+ */
+public interface ConsumerConstant {
+    String BOOTSTRAP_SERVERS_CONFIG = "BOOTSTRAP_SERVERS_CONFIG";
+    String GROUP_ID_CONFIG = "GROUP_ID_CONFIG";
+    String ENABLE_AUTO_COMMIT_CONFIG = "ENABLE_AUTO_COMMIT_CONFIG";
+    String AUTO_COMMIT_INTERVAL_MS_CONFIG = "AUTO_COMMIT_INTERVAL_MS_CONFIG";
+    String SESSION_TIMEOUT_MS_CONFIG = "SESSION_TIMEOUT_MS_CONFIG";
+    String KEY_DESERIALIZER_CLASS_CONFIG="KEY_DESERIALIZER_CLASS_CONFIG";
+    String VALUE_DESERIALIZER_CLASS_CONFIG="VALUE_DESERIALIZER_CLASS_CONFIG";
+
+
+}

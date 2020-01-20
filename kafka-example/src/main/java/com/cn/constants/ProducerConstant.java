@@ -1,0 +1,17 @@
+package com.cn.constants;
+
+/**
+ * @author by xiao
+ * @Classname ProducerConstant
+ * @Description
+ * @Date 2020/1/10 10:56
+ */
+public interface ProducerConstant {
+    String BOOTSTRAP_SERVERS_CONFIG = "BOOTSTRAP_SERVERS_CONFIG";
+    String RETRIES_CONFIG="RETRIES_CONFIG";
+    String BATCH_SIZE_CONFIG="BATCH_SIZE_CONFIG";
+    String LINGER_MS_CONFIG="LINGER_MS_CONFIG";
+    String BUFFER_MEMORY_CONFIG="BUFFER_MEMORY_CONFIG";
+    String KEY_SERIALIZER_CLASS_CONFIG="KEY_DESERIALIZER_CLASS_CONFIG";
+    String VALUE_SERIALIZER_CLASS_CONFIG="VALUE_DESERIALIZER_CLASS_CONFIG";
+}
