@@ -19,6 +19,6 @@ public class DemoListener {
     public void listen(String msg) {
     log.info("接收的kafka消息为："+msg);
     }
-    //重新提交
+    //重新提交 45
 
 }
