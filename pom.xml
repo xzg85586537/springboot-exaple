@@ -12,6 +12,7 @@
         <module>netty-example</module>
         <module>kafka-example</module>
         <module>springboot-common</module>
+        <module>springbootsecurity-example</module>
     </modules>
     <packaging>pom</packaging>
 
