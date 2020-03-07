@@ -14,12 +14,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("hello")
-    @PreAuthorize("hasRole('HELLO')")
-    public String sayHello() {
-        return "hello";
+    /**
+     * 受保护的资源
+     * @return
+     */
+    @GetMapping("/hi")
+    public String save(String name) {
+        return "hi："+name;
     }
 
-//    @PostMapping("login")
-//    public
+//    /**
+//     * 不受保护的资源
+//     * @return
+//     */
+//    @GetMapping("/save/no")
+//    public String noSave() {
+//        return "恭喜测试成功！！！";
+//    }
 }

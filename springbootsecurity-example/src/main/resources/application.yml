@@ -1,8 +1,35 @@
 server:
   port: 8081
 spring:
-  security:
-    user:
-      name: admin
-      password: 123456
-      roles: ONE
+  redis:
+    port: 6379
+    host: 182.92.166.198
+    database: 0
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username:  ${DATABASE_USERNAME:root}
+    password: ${DATABASE_PAWD:xzg85586537}
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 2
+    url: jdbc:mysql://${DATABASE_URL:localhost:3306}/${DATABASE:oauth}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+    main:
+      allow-bean-definition-overriding: true
+  # mybaits-plus配置
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  global-config:
+    banner: false
+    db-config:
+      table-underline: true
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    call-setters-on-nulls: true
+
