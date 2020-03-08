@@ -21,7 +21,11 @@ public class DemoTest {
 
     @Test
     public void test() throws InterruptedException {
-        template.send("topic.quick.demo", "kafka发送的第一条信息");
-        Thread.sleep(5000);
+        StringBuilder sb = new StringBuilder();
+        sb.append("0").append(" ").append("0").append(" ")
+                .append("0").append(" ").append(0)
+                .append(" ").append("*").append(" ").append("?");
+        String cron = sb.toString();
+        System.out.println("cron:"+cron);
     }
 }

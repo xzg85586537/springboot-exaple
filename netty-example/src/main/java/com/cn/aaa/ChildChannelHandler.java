@@ -1,4 +1,4 @@
-package com.cn;
+package com.cn.aaa;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
