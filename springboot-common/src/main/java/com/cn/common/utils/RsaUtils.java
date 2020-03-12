@@ -13,7 +13,7 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
 @Slf4j
-public class RequestUtils {
+public class RsaUtils {
 
     /**
      * RSA最大加密明文大小

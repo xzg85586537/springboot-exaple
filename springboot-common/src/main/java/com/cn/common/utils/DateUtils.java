@@ -836,6 +836,7 @@ public class DateUtils {
         Date dd = strToDate(sdate);
         Calendar c = Calendar.getInstance();
         c.setTime(dd);
+        // 返回星期一所在的日期
         if (num.equals("1")) // 返回星期一所在的日期
             c.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
         else if (num.equals("2")) // 返回星期二所在的日期

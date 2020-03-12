@@ -15,6 +15,7 @@
         <module>springbootsecurity-example</module>
         <module>designmodel-example</module>
         <module>technology-example</module>
+        <module>security-example</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -39,16 +40,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <!--spring-cloud-starter-oauth2中包括了相关的security包，具体查看-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security.oauth.boot</groupId>
-            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
-            <version>${spring-security-oauth2-autoconfigure.version}</version>
         </dependency>
         <!--hutool-->
         <dependency>
