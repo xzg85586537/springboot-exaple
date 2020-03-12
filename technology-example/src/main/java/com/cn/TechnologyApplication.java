@@ -1,6 +1,5 @@
 package com.cn;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -8,13 +7,13 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerA
 
 /**
  * @program:springboot-exaple
- * @description:mqtt
+ * @description:
  * @author: xiao
- * @create:2020-03-09 11:30
+ * @create:2020-03-11 19:29
  **/
-@SpringBootApplication
-public class MqttApplication {
+@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class })
+public class TechnologyApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MqttApplication.class, args);
+        SpringApplication.run(TechnologyApplication.class, args);
     }
 }

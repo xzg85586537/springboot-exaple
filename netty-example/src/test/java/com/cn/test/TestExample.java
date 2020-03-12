@@ -7,6 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.*;
@@ -34,6 +35,17 @@ public class TestExample {
         if (!file.exists()) {
             file.mkdirs();
         }
+    }
+
+    @Test
+    public void test4() {
+        String s = UUID.randomUUID().toString().replaceAll("-", "").toLowerCase();
+        System.out.println(s);
+    }
+
+    @Test
+    public void test5() {
+
     }
 
 

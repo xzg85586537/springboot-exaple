@@ -1,7 +1,0 @@
-#mqtt配置，参考
-mqtt:
-  username: vs_mqt_parking
-  password: vs_mqt@PK_sps_28
-  url: tcp://115.231.102.138:1883
-  topic: mtopic/parking/71ad08d4628d47999c3fc54ca5b803fa/db5ec6cb0db5469295655c18314b4911
-  completionTimeout: 3000
