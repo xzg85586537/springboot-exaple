@@ -15,7 +15,6 @@ package com.cn.common.exception;
 public class SqlException extends RuntimeException {
     public SqlException() {
     }
-
     public SqlException(String message) {
         super(message);
     }

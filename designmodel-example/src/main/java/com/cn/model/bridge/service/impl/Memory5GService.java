@@ -14,3 +14,4 @@ public class Memory5GService implements MemoryService {
         System.out.println("5G内存");
     }
 }
+

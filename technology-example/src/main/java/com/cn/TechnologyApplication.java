@@ -17,3 +17,4 @@ public class TechnologyApplication {
         SpringApplication.run(TechnologyApplication.class, args);
     }
 }
+

@@ -15,7 +15,6 @@ import org.springframework.context.ApplicationEvent;
 @Getter
 @Setter
 public class MyEvent extends ApplicationEvent {
-
     private Object source;
     private String key;
     private String method;

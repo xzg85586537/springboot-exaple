@@ -17,5 +17,4 @@ public class Test {
         publisher.publish("key是这样", "method长这样");
         context.close();
     }
-
 }

@@ -11,6 +11,7 @@ import java.math.BigDecimal;
  **/
 public class ArithUtil {
 
+
     // 默认除法运算精度
     private static final int DEF_DIV_SCALE = 10;
 

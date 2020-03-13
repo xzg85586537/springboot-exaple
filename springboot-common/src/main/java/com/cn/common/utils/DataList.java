@@ -8,6 +8,7 @@ import cn.hutool.json.JSONUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * @program:springboot-exaple
  * @description:将data转成list

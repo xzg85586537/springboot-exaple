@@ -13,10 +13,8 @@ import java.util.UUID;
 public class NoUtil {
 
     private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyyMMdd");
-
     /**
      * 创建不连续的订单号
-     *
      * @param no
      *            数据中心编号
      * @return 唯一的、不连续订单号

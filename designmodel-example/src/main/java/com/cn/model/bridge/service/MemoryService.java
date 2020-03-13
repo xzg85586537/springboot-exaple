@@ -13,3 +13,4 @@ package com.cn.model.bridge.service;
 public interface MemoryService {
     void showMemory();
 }
+

@@ -8,6 +8,7 @@ import com.cn.model.bridge.abstracts.AbstractPhone;
  * @author: xiao
  * @create:2020-03-10 19:43
  **/
+
 public class HuaWei extends AbstractPhone {
     @Override
     public void buyPhone() {

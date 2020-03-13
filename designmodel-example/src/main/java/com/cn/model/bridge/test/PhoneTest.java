@@ -17,3 +17,4 @@ public class PhoneTest {
         System.out.println("消费者购买华为手机，内存为5G");
     }
 }
+

@@ -13,7 +13,6 @@ import sun.misc.BASE64Encoder;
 
 import java.io.*;
 import java.net.URLEncoder;
-
 /**
  * @Author: Administrator
  *  图片路径和Base64位互相转换

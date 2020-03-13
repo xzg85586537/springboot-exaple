@@ -12,6 +12,5 @@ import lombok.Setter;
 @Setter
 public abstract class AbstractPhone {
     public MemoryService memory;
-
     public abstract void buyPhone();
 }

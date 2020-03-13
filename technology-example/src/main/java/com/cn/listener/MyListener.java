@@ -24,3 +24,4 @@ public class MyListener implements ApplicationListener<MyEvent> {
         System.out.println("MyListener接收到了来自MyPublisher的信息:" + key);
     }
 }
+

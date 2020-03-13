@@ -17,3 +17,4 @@ public class MyPublisher {
         SpringContextHolder.publishEvent(new MyEvent(this, key, method));
     }
 }
+

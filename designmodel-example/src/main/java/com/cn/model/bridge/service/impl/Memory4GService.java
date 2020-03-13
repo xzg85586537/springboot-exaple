@@ -14,3 +14,4 @@ public class Memory4GService implements MemoryService {
         System.out.println("4G内存");
     }
 }
+

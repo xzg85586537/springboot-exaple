@@ -18,7 +18,6 @@ import java.security.spec.X509EncodedKeySpec;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
-
 /**
  * 1、公钥加密，私钥解密用于信息加密
  * 2、私钥加密，公钥解密用于数字签名
