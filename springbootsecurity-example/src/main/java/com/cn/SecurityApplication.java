@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author by xiao
  */
 @SpringBootApplication
-@MapperScan("com.cn.mapper")
+@MapperScan("com.cn.mapper.**")
 public class SecurityApplication {
     public static void main(String[] args) {
         SpringApplication.run(SecurityApplication.class, args);

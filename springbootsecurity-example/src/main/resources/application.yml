@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 spring:
   redis:
     port: 6379
@@ -9,7 +9,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     username:  ${DATABASE_USERNAME:root}
-    password: ${DATABASE_PAWD:xzg85586537}
+    password: ${DATABASE_PAWD:85586537}
     hikari:
       maximum-pool-size: 20
       minimum-idle: 2
@@ -32,4 +32,3 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     call-setters-on-nulls: true
-
