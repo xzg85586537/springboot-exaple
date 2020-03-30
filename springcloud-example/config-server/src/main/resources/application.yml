@@ -15,7 +15,7 @@ spring:
       server:
         git:
           uri: https://github.com/xzg85586537/springboot-exaple.git
-            username: xzg85586537
-            password: xiao136325220
-          search-paths: xttblog-cloud-config
+          username: xzg85586537
+          password: xiao136325220
+          search-paths: /springcloud-example/config
 

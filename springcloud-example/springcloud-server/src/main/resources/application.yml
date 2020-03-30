@@ -13,7 +13,15 @@ eureka:
     #不需要同步其他的Eureka Server节点的数据，故而设置为false。
     fetch-registry: false
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #设置eureka需要用户名和密码登录，其他服务都是一样
+      defaultZone: http://xiao:xiao@${eureka.instance.hostname}:${server.port}/eureka/
 spring:
   application:
     name: eureka-server
+# 安全认证的配置
+security:
+  basic:
+    enabled: true
+  user:
+    name: xiao  # 用户名
+    password: xiao   # 用户密码
