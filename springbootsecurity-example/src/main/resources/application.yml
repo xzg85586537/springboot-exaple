@@ -13,7 +13,7 @@ spring:
     hikari:
       maximum-pool-size: 20
       minimum-idle: 2
-    url: jdbc:mysql://${DATABASE_URL:localhost:3306}/${DATABASE:oauth}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/oauth?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
     jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8

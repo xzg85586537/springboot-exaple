@@ -14,7 +14,7 @@
         <module>springboot-common</module>
         <module>springbootsecurity-example</module>
         <module>designmodel-example</module>
-        <module>springcloud-example</module>
+        <module>manyexecutor-example</module>
     </modules>
     <packaging>pom</packaging>
 
