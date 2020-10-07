@@ -15,6 +15,7 @@
         <module>springbootsecurity-example</module>
         <module>designmodel-example</module>
         <module>manyexecutor-example</module>
+        <module>security_jwt-example</module>
     </modules>
     <packaging>pom</packaging>
 
